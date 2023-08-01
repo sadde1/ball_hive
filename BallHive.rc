@@ -1,0 +1,231 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BallHive.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BallHive.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BALLHIVE_DIALOG DIALOGEX 200, 200, 332, 236
+STYLE DS_ABSALIGN | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_ABOUT DIALOGEX 10, 10, 299, 220
+STYLE DS_ABSALIGN | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         157,IDC_STATIC,"Static",SS_BITMAP,1,0,321,220
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "BallHive MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BallHive\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BallHive.EXE\0"
+            VALUE "ProductName", "BallHive Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BOARD        BITMAP  DISCARDABLE     "res\\board.bmp"
+IDB_BITMAP_CELL         BITMAP  DISCARDABLE     "res\\cell.bmp"
+IDB_BITMAP_EXIT         BITMAP  DISCARDABLE     "res\\exit.bmp"
+IDB_BITMAP_RED_BALL     BITMAP  DISCARDABLE     "res\\redball.bmp"
+IDB_BITMAP_GREEN_BALL   BITMAP  DISCARDABLE     "res\\greenball.bmp"
+IDB_BITMAP_DARK_BLUE_BALL BITMAP  DISCARDABLE     "res\\darkblueball.bmp"
+IDB_BITMAP_LIGHT_BLUE_BALL BITMAP  DISCARDABLE     "res\\lightblueball.bmp"
+IDB_BITMAP_BROWN_BALL   BITMAP  DISCARDABLE     "res\\brownball.bmp"
+IDB_BITMAP_ORANGE_BALL  BITMAP  DISCARDABLE     "res\\orangeball.bmp"
+IDB_BITMAP_PINK_BALL    BITMAP  DISCARDABLE     "res\\pinkball.bmp"
+IDB_BITMAP_GRAY_BALL    BITMAP  DISCARDABLE     "res\\grayball.bmp"
+IDB_BITMAP_SELECTED_CELL BITMAP  DISCARDABLE     "res\\selectedcell.bmp"
+IDB_BITMAP_MASTER_SELECTED BITMAP  DISCARDABLE     "res\\masterselected.bmp"
+IDB_BITMAP_BEGINNER_SELECTED BITMAP  DISCARDABLE     "res\\beginnerselected.bmp"
+IDB_BITMAP_EXPERT       BITMAP  DISCARDABLE     "res\\expert.bmp"
+IDB_BITMAP_EXPERT_SELECTED BITMAP  DISCARDABLE     "res\\expertselected.bmp"
+IDB_BITMAP_MASTER       BITMAP  DISCARDABLE     "res\\master.bmp"
+IDB_BITMAP_BEGINNER     BITMAP  DISCARDABLE     "res\\beginner.bmp"
+IDB_BITMAP_ABOUT        BITMAP  DISCARDABLE     "res\\about.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0xD, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+#ifdef _WIN32
+LANGUAGE 0xD, 0x1
+#pragma code_page(1255)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_ABOUT_BGR    BITMAP  DISCARDABLE     "res\\about_bgr.bmp"
+IDB_BITMAP_GAMEOVER     BITMAP  DISCARDABLE     "res\\GameOver.bmp"
+IDB_BITMAP_DIGITS       BITMAP  DISCARDABLE     "res\\digits.bmp"
+IDB_BITMAP_OK           BITMAP  DISCARDABLE     "res\\OK.bmp"
+IDB_BITMAP_ABOUTFGR     BITMAP  DISCARDABLE     "res\\about_fgr.bmp"
+IDB_BITMAP_CONTINUE     BITMAP  DISCARDABLE     "res\\continue.bmp"
+IDB_BITMAP_PAUSE        BITMAP  DISCARDABLE     "res\\pause.bmp"
+IDB_BITMAP_FLASH_BALL   BITMAP  DISCARDABLE     "res\\flashball.bmp"
+IDB_BITMAP_SHOW         BITMAP  DISCARDABLE     "res\\show.bmp"
+IDB_BITMAP_NOT_SHOW     BITMAP  DISCARDABLE     "res\\not_show.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_ERROR          WAVE    DISCARDABLE     "res\\Error.wav"
+IDR_WAVE_2              WAVE    DISCARDABLE     "res\\2.wav"
+IDR_WAVE_4              WAVE    DISCARDABLE     "res\\4.wav"
+IDR_WAVE_8              WAVE    DISCARDABLE     "res\\8.wav"
+IDR_WAVE_16             WAVE    DISCARDABLE     "res\\16.wav"
+IDR_WAVE_32             WAVE    DISCARDABLE     "res\\32.wav"
+IDR_WAVE_64             WAVE    DISCARDABLE     "res\\64.wav"
+IDR_WAVE_128            WAVE    DISCARDABLE     "res\\128.wav"
+IDR_WAVE_256            WAVE    DISCARDABLE     "res\\256.wav"
+IDR_WAVE_MOVE           WAVE    DISCARDABLE     "res\\Move.wav"
+IDR_WAVE_DEAD           WAVE    DISCARDABLE     "res\\Dead.wav"
+IDR_WAVE_CELL           WAVE    DISCARDABLE     "res\\cell.wav"
+#endif    // Unknown language: 0xD, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BallHive.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
